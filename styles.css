@@ -5,7 +5,7 @@ body {
 .container {
   position: relative;
   margin: 120px auto;
-  /*border: 1px solid white;*/  
+  /*border: 1px solid white;*/
   height: 400px;
   width: 480px;
 }
@@ -95,4 +95,95 @@ body {
   height: 0;
   width: 153px;
   transform: rotate(90deg);
+}
+
+.green-curve-1 {
+  position: absolute;
+      top: -16px;
+      right: 126px;
+      z-index: 1;
+      width: 151px;
+      height: 100px;
+      border: solid 8px #000;
+      border-color: #3F0 transparent transparent transparent;
+      border-radius: 50%/28px 20px 0 0;
+      transform: rotate(150deg);
+}
+
+.green-curve-2 {
+  position: absolute;
+  top: 24px;
+  right: 126px;
+  z-index: 1;
+  width: 21px;
+  height: 26px;
+  border: solid 7px #000;
+  border-color: #3F0 transparent transparent transparent;
+  border-radius: 95%/64px 62px 0 0;
+  transform: rotate(57deg);
+}
+
+.green-curve-3 {
+  position: absolute;
+  top: 34px;
+  right: 108px;
+  z-index: 0;
+  width: 90px;
+  height: 70px;
+  border: solid 7px #000;
+  border-color: #3F0 transparent transparent transparent;
+  border-radius: 50%/22px 22px 0 0;
+  transform: rotate(-40deg);
+}
+
+.yellow-curve-1 {
+  position: absolute;
+  top: 40px;
+  right: 97px;
+  z-index: 1;
+  width: 90px;
+  height: 70px;
+  border: solid 5px #000;
+  border-color: rgb(0, 0, 0) transparent transparent transparent;
+  border-radius: 50%/22px 15px 0 0;
+  transform: rotate(150deg);
+}
+
+.yellow-curve-3 {
+  position: absolute;
+  top: 83px;
+  right: 72px;
+  z-index: 0;
+  width: 90px;
+  height: 70px;
+  border: solid 5px #000;
+  border-color: rgb(0, 0, 0) transparent transparent transparent;
+  border-radius: 50%/22px 22px 0 0;
+  transform: rotate(-40deg);
+}
+
+.red-curve-1 {
+  position: absolute;
+    top: 108px;
+    right: 77px;
+  z-index: 1;
+  width: 51px;
+  height: 32px;
+  border: solid 4px #000;
+  border-color: #ff1700 transparent transparent transparent;
+  border-radius: 50%/11px 11px 0 0;
+  transform: rotate(150deg);
+}
+
+.red-curve-3 {
+  position: absolute;
+  top: 125px;
+  right: 45px;
+  z-index: 0;
+  width: 81px;
+  height: 70px;
+  border: solid 4px #000;
+  border-color: #ff1700 transparent transparent transparent;
+  border-radius: 50%/22px 22px 0 0;
+  transform: rotate(-48deg);
 }
